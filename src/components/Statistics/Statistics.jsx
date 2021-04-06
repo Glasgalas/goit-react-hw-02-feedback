@@ -7,7 +7,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
       <div className={s.wrapper}>
         <p className={s.text}>Good: {good} 🙂</p>
         <p className={s.text}>Neutral: {neutral} 😐</p>
-        <p className={s.text}>Bad: {bad} ☹</p>
+        <p className={s.text}>Bad: {bad} 😕</p>
         <p className={s.text}>Total: {total} 📈</p>
         <p className={s.text}>Positive feedback: {positivePercentage}% ⭐</p>
       </div>
